@@ -1,15 +1,17 @@
 @charset "utf-8";
-@import url('https://fonts.googleapis.com/css2?family=Moirai+One&family=Nanum+Gothic+Coding&family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Moirai+One&family=Nanum+Gothic&family=Nanum+Gothic+Coding&family=Rock+Salt&display=swap');
 
 * {
-    font-family: "Gowun Dodum", sans-serif;
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 body {
     background-color: white;
 }
 
-.updiv {    
+.updiv {
     border: 1px solid transparent;
 }
 
@@ -38,13 +40,12 @@ body {
     font-family: "Nanum Gothic Coding", monospace;
     font-weight: 400;
     font-style: normal;
-    font-size: 20px;
+    font-size: 15px;
     text-align: center;
     color: lightgray;
     width: 800px;
     margin: 0px auto 0px auto;
     border: 1px solid white;
-    background-color: white;
 }
 
 .intro {
