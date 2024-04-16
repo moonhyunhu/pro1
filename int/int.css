@@ -1,3 +1,20 @@
 body {
-  background-color: rgb(191, 227, 233);
+  background-color: white;
+}
+#mainCardImg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+h3 {
+  font-weight: bold;
+}
+#int {
+  width: 1000px;
+  background-color: whitesmoke;
+  border-radius: 20px;
+  border: solid midnightblue 2px;
+  padding: 10px 30px 20px 30px;
+  margin-top: 30px;
 }
