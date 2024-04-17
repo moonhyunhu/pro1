@@ -78,11 +78,6 @@ body {
     border-radius: 5px;
 }
 
-.faceimg {
-    width: 185px;
-    height: 100px;
-
-}
 
 .card-body {
     display: flex;
