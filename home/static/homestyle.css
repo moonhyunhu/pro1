@@ -25,6 +25,7 @@ body {
 }
 
 .title {
+    background-color: transparent;
     width: 800px;
     text-align: center;
     margin: 10px auto 10px auto;
