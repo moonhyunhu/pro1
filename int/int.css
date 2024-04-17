@@ -9,11 +9,12 @@ body {
 }
 h3 {
   color: white;
-  text-shadow: 2px 2px 3px rgb(0, 0, 0);
+  text-shadow: 3px 3px 3px rgb(0, 0, 0);
   font-weight: bold;
+  padding-left: 0px;
 }
 small {
-  text-shadow: 2px 2px 5px rgb(0, 0, 0);
+  text-shadow: 5px 5px 5px rgb(0, 0, 0);
 }
 #int {
   width: 1000px;
