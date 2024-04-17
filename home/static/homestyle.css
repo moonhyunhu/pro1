@@ -25,6 +25,13 @@ body {
 }
 
 .title {
+    width: 800px;
+    text-align: center;
+    margin: 10px auto 10px auto;
+}
+
+.title > a {
+    text-decoration-line: none;
     font-family: "Moirai One", system-ui;
     font-weight: 800;
     font-style: normal;
@@ -56,14 +63,14 @@ body {
 }
 
 .left {
-    background-color:yellow;
+    background-color: yellow;
     float: left;
     margin: 20px auto 20px auto;
     word-break: break-all;
 }
 
 .right {
-    background-color:yellow;
+    background-color: yellow;
     float: right;
     margin: 20px auto 20px auto;
     word-break: break-all
