@@ -49,22 +49,21 @@ body {
 }
 
 .intro {
+    background-color: green;
     width: 800px;
     height: 250px;
     margin: 20px auto 20px auto;
 }
 
 .left {
-    width: 50%;
-    height: 50%;
+    background-color:yellow;
     float: left;
     margin: 20px auto 20px auto;
     word-break: break-all;
 }
 
 .right {
-    width: 50%;
-    height: 160px;
+    background-color:yellow;
     float: right;
     margin: 20px auto 20px auto;
     word-break: break-all

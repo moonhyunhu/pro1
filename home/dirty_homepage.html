@@ -2,503 +2,505 @@
 <html lang="ko">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>팀 소개 웹페이지</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="homestyle.css" type="text/css">
-    <script>
-        function one() {
-            $(document).ready(function () {
-                if ($('#mainimg').css('display') === "block" && $('#first').css('display') === "block") {
-                    $('#mainimg').css({ display: "block" });
-                    $('#first').css({ display: "none" });
-                    $('#second').css({ display: "none" });
-                    $('#third').css({ display: "none" });
-                    $('#fourth').css({ display: "none" });
-                    $('#fifth').css({ display: "none" });
-                }
-                else if ($('#mainimg').css('display') === "none" && $('#first').css('display') === "block") {
-                    $('#mainimg').toggle();
-                    $('#first').toggle();
-                    $('#second').css({ display: "none" });
-                    $('#third').css({ display: "none" });
-                    $('#fourth').css({ display: "none" });
-                    $('#fifth').css({ display: "none" });
-                }
-                else if ($('#mainimg').css('display') === "none" && $('#first').css('display') === "none") {
-                    $('#mainimg').css({ display: "none" });
-                    $('#first').css({ display: "block" });
-                    $('#second').css({ display: "none" });
-                    $('#third').css({ display: "none" });
-                    $('#fourth').css({ display: "none" });
-                    $('#fifth').css({ display: "none" });
-                }
-                else if ($('#mainimg').css('display') === "block" && $('#first').css('display') === "none") {
-                    $('#mainimg').toggle();
-                    $('#first').toggle();
-                    $('#second').css({ display: "none" });
-                    $('#third').css({ display: "none" });
-                    $('#fourth').css({ display: "none" });
-                    $('#fifth').css({ display: "none" });
-                }
-            });
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>팀 소개 웹페이지</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="homestyle.css" type="text/css">
+  <script>
+    function one() {
+      $(document).ready(function () {
+        if ($('#mainimg').css('display') === "block" && $('#first').css('display') === "block") {
+          $('#mainimg').css({ display: "block" });
+          $('#first').css({ display: "none" });
+          $('#second').css({ display: "none" });
+          $('#third').css({ display: "none" });
+          $('#fourth').css({ display: "none" });
+          $('#fifth').css({ display: "none" });
+        }
+        else if ($('#mainimg').css('display') === "none" && $('#first').css('display') === "block") {
+          $('#mainimg').toggle();
+          $('#first').toggle();
+          $('#second').css({ display: "none" });
+          $('#third').css({ display: "none" });
+          $('#fourth').css({ display: "none" });
+          $('#fifth').css({ display: "none" });
+        }
+        else if ($('#mainimg').css('display') === "none" && $('#first').css('display') === "none") {
+          $('#mainimg').css({ display: "none" });
+          $('#first').css({ display: "block" });
+          $('#second').css({ display: "none" });
+          $('#third').css({ display: "none" });
+          $('#fourth').css({ display: "none" });
+          $('#fifth').css({ display: "none" });
+        }
+        else if ($('#mainimg').css('display') === "block" && $('#first').css('display') === "none") {
+          $('#mainimg').toggle();
+          $('#first').toggle();
+          $('#second').css({ display: "none" });
+          $('#third').css({ display: "none" });
+          $('#fourth').css({ display: "none" });
+          $('#fifth').css({ display: "none" });
+        }
+      });
 
+    }
+    function two() {
+      $(document).ready(function () {
+        if ($('#mainimg').css('display') === "block" && $('#second').css('display') === "block") {
+          $('#mainimg').css({ display: "block" });
+          $('#first').css({ display: "none" });
+          $('#second').css({ display: "none" });
+          $('#third').css({ display: "none" });
+          $('#fourth').css({ display: "none" });
+          $('#fifth').css({ display: "none" });
         }
-        function two() {
-            $(document).ready(function () {
-                if ($('#mainimg').css('display') === "block" && $('#second').css('display') === "block") {
-                    $('#mainimg').css({ display: "block" });
-                    $('#first').css({ display: "none" });
-                    $('#second').css({ display: "none" });
-                    $('#third').css({ display: "none" });
-                    $('#fourth').css({ display: "none" });
-                    $('#fifth').css({ display: "none" });
-                }
-                else if ($('#mainimg').css('display') === "none" && $('#second').css('display') === "block") {
-                    $('#mainimg').toggle();
-                    $('#second').toggle();
-                    $('#first').css({ display: "none" });
-                    $('#third').css({ display: "none" });
-                    $('#fourth').css({ display: "none" });
-                    $('#fifth').css({ display: "none" });
-                }
-                else if ($('#mainimg').css('display') === "none" && $('#second').css('display') === "none") {
-                    $('#mainimg').css({ display: "none" });
-                    $('#first').css({ display: "none" });
-                    $('#second').css({ display: "block" });
-                    $('#third').css({ display: "none" });
-                    $('#fourth').css({ display: "none" });
-                    $('#fifth').css({ display: "none" });
-                }
-                else if ($('#mainimg').css('display') === "block" && $('#second').css('display') === "none") {
-                    $('#mainimg').toggle();
-                    $('#second').toggle();
-                    $('#first').css({ display: "none" });
-                    $('#third').css({ display: "none" });
-                    $('#fourth').css({ display: "none" });
-                    $('#fifth').css({ display: "none" });
-                }
-            });
+        else if ($('#mainimg').css('display') === "none" && $('#second').css('display') === "block") {
+          $('#mainimg').toggle();
+          $('#second').toggle();
+          $('#first').css({ display: "none" });
+          $('#third').css({ display: "none" });
+          $('#fourth').css({ display: "none" });
+          $('#fifth').css({ display: "none" });
         }
-        function three() {
-            $(document).ready(function () {
-                if ($('#mainimg').css('display') === "block" && $('#third').css('display') === "block") {
-                    $('#mainimg').css({ display: "block" });
-                    $('#first').css({ display: "none" });
-                    $('#second').css({ display: "none" });
-                    $('#third').css({ display: "none" });
-                    $('#fourth').css({ display: "none" });
-                    $('#fifth').css({ display: "none" });
-                }
-                else if ($('#mainimg').css('display') === "none" && $('#third').css('display') === "block") {
-                    $('#mainimg').toggle();
-                    $('#third').toggle();
-                    $('#second').css({ display: "none" });
-                    $('#first').css({ display: "none" });
-                    $('#fourth').css({ display: "none" });
-                    $('#fifth').css({ display: "none" });
-                }
-                else if ($('#mainimg').css('display') === "none" && $('#third').css('display') === "none") {
-                    $('#mainimg').css({ display: "none" });
-                    $('#first').css({ display: "none" });
-                    $('#second').css({ display: "none" });
-                    $('#third').css({ display: "block" });
-                    $('#fourth').css({ display: "none" });
-                    $('#fifth').css({ display: "none" });
-                }
-                else if ($('#mainimg').css('display') === "block" && $('#third').css('display') === "none") {
-                    $('#mainimg').toggle();
-                    $('#third').toggle();
-                    $('#second').css({ display: "none" });
-                    $('#first').css({ display: "none" });
-                    $('#fourth').css({ display: "none" });
-                    $('#fifth').css({ display: "none" });
-                }
-            });
+        else if ($('#mainimg').css('display') === "none" && $('#second').css('display') === "none") {
+          $('#mainimg').css({ display: "none" });
+          $('#first').css({ display: "none" });
+          $('#second').css({ display: "block" });
+          $('#third').css({ display: "none" });
+          $('#fourth').css({ display: "none" });
+          $('#fifth').css({ display: "none" });
         }
-        function four() {
-            $(document).ready(function () {
-                if ($('#mainimg').css('display') === "block" && $('#fourth').css('display') === "block") {
-                    $('#mainimg').css({ display: "block" });
-                    $('#first').css({ display: "none" });
-                    $('#second').css({ display: "none" });
-                    $('#third').css({ display: "none" });
-                    $('#fourth').css({ display: "none" });
-                    $('#fifth').css({ display: "none" });
-                }
-                else if ($('#mainimg').css('display') === "none" && $('#fourth').css('display') === "block") {
-                    $('#mainimg').toggle();
-                    $('#fourth').toggle();
-                    $('#second').css({ display: "none" });
-                    $('#third').css({ display: "none" });
-                    $('#first').css({ display: "none" });
-                    $('#fifth').css({ display: "none" });
-                }
-                else if ($('#mainimg').css('display') === "none" && $('#fourth').css('display') === "none") {
-                    $('#mainimg').css({ display: "none" });
-                    $('#first').css({ display: "none" });
-                    $('#second').css({ display: "none" });
-                    $('#third').css({ display: "none" });
-                    $('#fourth').css({ display: "block" });
-                    $('#fifth').css({ display: "none" });
-                }
-                else if ($('#mainimg').css('display') === "block" && $('#fourth').css('display') === "none") {
-                    $('#mainimg').toggle();
-                    $('#fourth').toggle();
-                    $('#second').css({ display: "none" });
-                    $('#third').css({ display: "none" });
-                    $('#first').css({ display: "none" });
-                    $('#fifth').css({ display: "none" });
-                }
-            });
+        else if ($('#mainimg').css('display') === "block" && $('#second').css('display') === "none") {
+          $('#mainimg').toggle();
+          $('#second').toggle();
+          $('#first').css({ display: "none" });
+          $('#third').css({ display: "none" });
+          $('#fourth').css({ display: "none" });
+          $('#fifth').css({ display: "none" });
         }
-        function five() {
-            $(document).ready(function () {
-                if ($('#mainimg').css('display') === "block" && $('#fifth').css('display') === "block") {
-                    $('#mainimg').css({ display: "block" });
-                    $('#first').css({ display: "none" });
-                    $('#second').css({ display: "none" });
-                    $('#third').css({ display: "none" });
-                    $('#fourth').css({ display: "none" });
-                    $('#fifth').css({ display: "none" });
-                }
-                else if ($('#mainimg').css('display') === "none" && $('#fifth').css('display') === "block") {
-                    $('#mainimg').toggle();
-                    $('#fifth').toggle();
-                    $('#second').css({ display: "none" });
-                    $('#third').css({ display: "none" });
-                    $('#fourth').css({ display: "none" });
-                    $('#first').css({ display: "none" });
-                }
-                else if ($('#mainimg').css('display') === "none" && $('#fifth').css('display') === "none") {
-                    $('#mainimg').css({ display: "none" });
-                    $('#first').css({ display: "none" });
-                    $('#second').css({ display: "none" });
-                    $('#third').css({ display: "none" });
-                    $('#fourth').css({ display: "none" });
-                    $('#fifth').css({ display: "block" });
-                }
-                else if ($('#mainimg').css('display') === "block" && $('#fifth').css('display') === "none") {
-                    $('#mainimg').toggle();
-                    $('#fifth').toggle();
-                    $('#second').css({ display: "none" });
-                    $('#third').css({ display: "none" });
-                    $('#fourth').css({ display: "none" });
-                    $('#first').css({ display: "none" });
-                }
-            });
+      });
+    }
+    function three() {
+      $(document).ready(function () {
+        if ($('#mainimg').css('display') === "block" && $('#third').css('display') === "block") {
+          $('#mainimg').css({ display: "block" });
+          $('#first').css({ display: "none" });
+          $('#second').css({ display: "none" });
+          $('#third').css({ display: "none" });
+          $('#fourth').css({ display: "none" });
+          $('#fifth').css({ display: "none" });
         }
-    </script>
+        else if ($('#mainimg').css('display') === "none" && $('#third').css('display') === "block") {
+          $('#mainimg').toggle();
+          $('#third').toggle();
+          $('#second').css({ display: "none" });
+          $('#first').css({ display: "none" });
+          $('#fourth').css({ display: "none" });
+          $('#fifth').css({ display: "none" });
+        }
+        else if ($('#mainimg').css('display') === "none" && $('#third').css('display') === "none") {
+          $('#mainimg').css({ display: "none" });
+          $('#first').css({ display: "none" });
+          $('#second').css({ display: "none" });
+          $('#third').css({ display: "block" });
+          $('#fourth').css({ display: "none" });
+          $('#fifth').css({ display: "none" });
+        }
+        else if ($('#mainimg').css('display') === "block" && $('#third').css('display') === "none") {
+          $('#mainimg').toggle();
+          $('#third').toggle();
+          $('#second').css({ display: "none" });
+          $('#first').css({ display: "none" });
+          $('#fourth').css({ display: "none" });
+          $('#fifth').css({ display: "none" });
+        }
+      });
+    }
+    function four() {
+      $(document).ready(function () {
+        if ($('#mainimg').css('display') === "block" && $('#fourth').css('display') === "block") {
+          $('#mainimg').css({ display: "block" });
+          $('#first').css({ display: "none" });
+          $('#second').css({ display: "none" });
+          $('#third').css({ display: "none" });
+          $('#fourth').css({ display: "none" });
+          $('#fifth').css({ display: "none" });
+        }
+        else if ($('#mainimg').css('display') === "none" && $('#fourth').css('display') === "block") {
+          $('#mainimg').toggle();
+          $('#fourth').toggle();
+          $('#second').css({ display: "none" });
+          $('#third').css({ display: "none" });
+          $('#first').css({ display: "none" });
+          $('#fifth').css({ display: "none" });
+        }
+        else if ($('#mainimg').css('display') === "none" && $('#fourth').css('display') === "none") {
+          $('#mainimg').css({ display: "none" });
+          $('#first').css({ display: "none" });
+          $('#second').css({ display: "none" });
+          $('#third').css({ display: "none" });
+          $('#fourth').css({ display: "block" });
+          $('#fifth').css({ display: "none" });
+        }
+        else if ($('#mainimg').css('display') === "block" && $('#fourth').css('display') === "none") {
+          $('#mainimg').toggle();
+          $('#fourth').toggle();
+          $('#second').css({ display: "none" });
+          $('#third').css({ display: "none" });
+          $('#first').css({ display: "none" });
+          $('#fifth').css({ display: "none" });
+        }
+      });
+    }
+    function five() {
+      $(document).ready(function () {
+        if ($('#mainimg').css('display') === "block" && $('#fifth').css('display') === "block") {
+          $('#mainimg').css({ display: "block" });
+          $('#first').css({ display: "none" });
+          $('#second').css({ display: "none" });
+          $('#third').css({ display: "none" });
+          $('#fourth').css({ display: "none" });
+          $('#fifth').css({ display: "none" });
+        }
+        else if ($('#mainimg').css('display') === "none" && $('#fifth').css('display') === "block") {
+          $('#mainimg').toggle();
+          $('#fifth').toggle();
+          $('#second').css({ display: "none" });
+          $('#third').css({ display: "none" });
+          $('#fourth').css({ display: "none" });
+          $('#first').css({ display: "none" });
+        }
+        else if ($('#mainimg').css('display') === "none" && $('#fifth').css('display') === "none") {
+          $('#mainimg').css({ display: "none" });
+          $('#first').css({ display: "none" });
+          $('#second').css({ display: "none" });
+          $('#third').css({ display: "none" });
+          $('#fourth').css({ display: "none" });
+          $('#fifth').css({ display: "block" });
+        }
+        else if ($('#mainimg').css('display') === "block" && $('#fifth').css('display') === "none") {
+          $('#mainimg').toggle();
+          $('#fifth').toggle();
+          $('#second').css({ display: "none" });
+          $('#third').css({ display: "none" });
+          $('#fourth').css({ display: "none" });
+          $('#first').css({ display: "none" });
+        }
+      });
+    }
+  </script>
 </head>
 
 <body>
-    <div class="updiv">
-        <div class="titlebox">
-            <h1 class="title">첫 개발은 너무 어려워</h1>
-            <h2 class="subtitle">Team 16 : The First Develop Is Too Hard</h2>
-        </div>
-        <div class="intro">
-            <div>
-                <h4 class="left">💬팀 소개 : 첫 개발은 어렵지만,<br>될 때까지 하겠다는 5명의 포부가<br> 담긴 팀입니다.</h4>
-            </div>
-            <div class="right">
-                <h5>💡규칙 : 12:00 ~ 13:00 : 점심시간<br>
-                  &emsp;&emsp;&emsp;&ensp;&nbsp;19:00 ~ 20:00 : 저녁시간<br>
-                  &emsp;&emsp;&emsp;&ensp;&nbsp;09:30 : 하루시작 회의<br>
-                  &emsp;&emsp;&emsp;&ensp;&nbsp;20:45 : 하루 마무리<br>
-                  &emsp;&emsp;&ensp;&nbsp;- 질문은 신속 과감, 답변은 친절 명확<br>
-                  &emsp;&emsp;&ensp;&nbsp;- 특이사항 발생시, 팀원에게 공유!<h5>
-            </div>
-        </div>
+  <div class="updiv">
+    <div class="titlebox">
+      <h1 class="title">첫 개발은 너무 어려워</h1>
+      <h2 class="subtitle">Team 16 : The First Develop Is Too Hard</h2>
     </div>
-    <div class="player">
-        <div class="row row-cols-1 row-cols-md-5 g-5">
-            <div class="col">
-                <div class="card h-100">
-                    <!--프로필 사진-->
-                    <img class="faceimg"
-                        src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2F20150117_54%2Fhiwwc_1421423354030BDQ0c_JPEG%2F1289132024_98.jpg&type=a340"
-                        class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <href class="card-title">👑👨‍🎓팀장: 김동재</href>
-                        <button onclick="one()" type="button" class="btn btn-outline-primary">정보보기</button>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card h-100">
-                    <!--프로필 사진-->
-                    <img class="faceimg"
-                        src="https://search.pstatic.net/common/?src=http%3A%2F%2Fcafefiles.naver.net%2F20140921_186%2Fsje4201_1411286957498WQ4wT_JPEG%2F740_Screenshot_2014-09-21-16-48-36.jpg&type=l340_165"
-                        class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <href class="card-title">👨‍🎓팀원: 황인건</href>
-                        <button onclick="two()" type="button" class="btn btn-outline-primary">정보보기</button>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card h-100">
-                    <!--프로필 사진-->
-                    <img class="faceimg"
-                        src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAxOTEyMjVfMjk4%2FMDAxNTc3MjcxNTA2ODA3.oUOVYciJotSBoOWce8qPOAcdrLjHuBXmRYi6xGiK6Dsg.JzomJY1ulgrWWJx_q5-NnM1kIN6FX0O-os7kBxrfGOgg.JPEG.kangjohn0607%2FIMG_2019.jpg&type=a340"
-                        class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <href class="card-title">👩‍🎓팀원: 강하린</href>
-                        <button onclick="three()" type="button" class="btn btn-outline-primary">정보보기</button>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card h-100">
-                    <!--프로필 사진-->
-                    <img class="faceimg"
-                        src="https://search.pstatic.net/common/?src=http%3A%2F%2Fimage.nmv.naver.net%2Fblogucc28%2F2018%2F05%2F26%2F1828%2F0c20501745dae7b8929d2c2769fe608fb38d_ugcvideo_270P_01_16x9_logo.jpg&type=a340"
-                        class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <href class="card-title">👨‍🎓팀원: 전우찬</href>
-                        <button onclick="four()" type="button" class="btn btn-outline-primary">정보보기</button>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card h-100">
-                    <!--프로필 사진-->
-                    <img class="faceimg"
-                        src="https://search.pstatic.net/sunny/?src=https%3A%2F%2Fi3.ruliweb.com%2Fimg%2F19%2F04%2F14%2F16a1b17ad1d4812b0.jpg&type=a340"
-                        class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <href class="card-title">👨‍🎓팀원: 문현후</href>
-                        <button onclick="five()" type="button" class="btn btn-outline-primary">정보보기</button>
-                    </div>
-                </div>
-            </div>
+    <div class="intro">
+      <div class="row row-cols-md-2">
+        <div class="Col">
+          <div class="left"><h4>💬팀 소개 : 첫 개발은 어렵지만,<br>될 때까지 하겠다는 5명의 포부가<br> 담긴 팀입니다.</h4></div>
         </div>
-    </div>
-    </div>
-    <div class="teamimg">
-        <img id="mainimg" src="https://i.ibb.co/zsLd5t7/image.png" class="rounded" alt="...">
-        <div id="first" style="display: none;">
-            <!--개인 소개 div추가해야 할 부분-->
-            <!--추가 시 아래div 삭제-->
-            <div class="card" style="width: 18rem;">
-                <img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2F20150117_54%2Fhiwwc_1421423354030BDQ0c_JPEG%2F1289132024_98.jpg&type=a340"
-                    class="card-img-top" alt="얼굴">
-                <div class="card-body">
-                    <p class="card-text">김동재 소개div</p>
-                </div>
-            </div>
+        <div class="Col">
+          <div class="right">
+            <h5>💡규칙 : 12:00 ~ 13:00 : 점심시간<br>
+              &emsp;&emsp;&emsp;&ensp;&nbsp;19:00 ~ 20:00 : 저녁시간<br>
+              &emsp;&emsp;&emsp;&ensp;&nbsp;09:30 : 하루시작 회의<br>
+              &emsp;&emsp;&emsp;&ensp;&nbsp;20:45 : 하루 마무리<br>
+              &emsp;&emsp;&ensp;&nbsp;- 질문은 신속 과감, 답변은 친절 명확<br>
+              &emsp;&emsp;&ensp;&nbsp;- 특이사항 발생시, 팀원에게 공유!<h5>
+          </div>
         </div>
-        <div id="second" style="display: none;">
-            <!--개인 소개 div추가해야 할 부분-->
-            <!--추가 시 아래div 삭제-->
-            <div class="container text-center">
-                <!-- 첫 번째 열 -->
-                <div class="row">
-                  <div class="col-12">차후 추가할수도 있는 디자인적 요소등을 고려하여 만들어  두었음</div>
-                  
+      </div>
+    </div>
+  </div>
+  <div class="player">
+    <div class="row row-cols-1 row-cols-md-5 g-5">
+      <div class="col">
+        <div class="card h-100">
+          <!--프로필 사진-->
+          <img class="faceimg"
+            src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2F20150117_54%2Fhiwwc_1421423354030BDQ0c_JPEG%2F1289132024_98.jpg&type=a340"
+            class="card-img-top" alt="...">
+          <div class="card-body">
+            <href class="card-title">👑👨‍🎓팀장: 김동재</href>
+            <button onclick="one()" type="button" class="btn btn-outline-primary">정보보기</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <!--프로필 사진-->
+          <img class="faceimg"
+            src="https://search.pstatic.net/common/?src=http%3A%2F%2Fcafefiles.naver.net%2F20140921_186%2Fsje4201_1411286957498WQ4wT_JPEG%2F740_Screenshot_2014-09-21-16-48-36.jpg&type=l340_165"
+            class="card-img-top" alt="...">
+          <div class="card-body">
+            <href class="card-title">👨‍🎓팀원: 황인건</href>
+            <button onclick="two()" type="button" class="btn btn-outline-primary">정보보기</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <!--프로필 사진-->
+          <img class="faceimg"
+            src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAxOTEyMjVfMjk4%2FMDAxNTc3MjcxNTA2ODA3.oUOVYciJotSBoOWce8qPOAcdrLjHuBXmRYi6xGiK6Dsg.JzomJY1ulgrWWJx_q5-NnM1kIN6FX0O-os7kBxrfGOgg.JPEG.kangjohn0607%2FIMG_2019.jpg&type=a340"
+            class="card-img-top" alt="...">
+          <div class="card-body">
+            <href class="card-title">👩‍🎓팀원: 강하린</href>
+            <button onclick="three()" type="button" class="btn btn-outline-primary">정보보기</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <!--프로필 사진-->
+          <img class="faceimg"
+            src="https://search.pstatic.net/common/?src=http%3A%2F%2Fimage.nmv.naver.net%2Fblogucc28%2F2018%2F05%2F26%2F1828%2F0c20501745dae7b8929d2c2769fe608fb38d_ugcvideo_270P_01_16x9_logo.jpg&type=a340"
+            class="card-img-top" alt="...">
+          <div class="card-body">
+            <href class="card-title">👨‍🎓팀원: 전우찬</href>
+            <button onclick="four()" type="button" class="btn btn-outline-primary">정보보기</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <!--프로필 사진-->
+          <img class="faceimg"
+            src="https://search.pstatic.net/sunny/?src=https%3A%2F%2Fi3.ruliweb.com%2Fimg%2F19%2F04%2F14%2F16a1b17ad1d4812b0.jpg&type=a340"
+            class="card-img-top" alt="...">
+          <div class="card-body">
+            <href class="card-title">👨‍🎓팀원: 문현후</href>
+            <button onclick="five()" type="button" class="btn btn-outline-primary">정보보기</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <div class="teamimg">
+    <img id="mainimg" src="https://i.ibb.co/zsLd5t7/image.png" class="rounded" alt="...">
+    <div id="first" style="display: none;">
+      <!--개인 소개 div추가해야 할 부분-->
+      <!--추가 시 아래div 삭제-->
+      <div class="card" style="width: 18rem;">
+        <img
+          src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2F20150117_54%2Fhiwwc_1421423354030BDQ0c_JPEG%2F1289132024_98.jpg&type=a340"
+          class="card-img-top" alt="얼굴">
+        <div class="card-body">
+          <p class="card-text">김동재 소개div</p>
+        </div>
+      </div>
+    </div>
+    <div id="second" style="display: none;">
+      <!--개인 소개 div추가해야 할 부분-->
+      <!--추가 시 아래div 삭제-->
+      <div class="container text-center">
+        <!-- 첫 번째 열 -->
+        <div class="row">
+          <div class="col-12">차후 추가할수도 있는 디자인적 요소등을 고려하여 만들어 두었음</div>
+
+        </div>
+
+        <!-- 두 번째 열-->
+        <div class="row">
+          <div class="col-6 col-md-4">
+
+            <div class="card mx-2" style="width: auto;">
+              <div class="row row-cols-1 row-cols-md-1 g-2">
+                <div class="col mb-3">
+                  <div class="card">
+                    <img src="img\mbti사진\entp.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">제 MBTI유형은 "ENTP" 입니다</h5>
+                      <p class="card-text">대담하고 창의적이며 뛰어난 정신적 민첩성을 가지고 아이디어를 해체하고 재구성하는 경향이 있습니다. 어떤 저항에도 불구하고 적극적으로 목표를
+                        추구합니다.</p>
+                    </div>
+                  </div>
                 </div>
-          
-                <!-- 두 번째 열-->
-                <div class="row">
-                 <div class="col-6 col-md-4">
-                    
-                    <div class="card mx-2" style="width: auto;">
-                      <div class="row row-cols-1 row-cols-md-1 g-2">
-                        <div class="col mb-3">
-                          <div class="card">
-                            <img src="img\mbti사진\entp.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                              <h5 class="card-title">제 MBTI유형은 "ENTP" 입니다</h5>
-                              <p class="card-text">대담하고 창의적이며 뛰어난 정신적 민첩성을 가지고 아이디어를 해체하고 재구성하는 경향이 있습니다. 어떤 저항에도 불구하고 적극적으로 목표를 추구합니다.</p>
-                            </div>
-                          </div>
-                        </div>
-                    
-                        <div class="card border-light" style="width:auto;">
-                          <div class="card-header">blog / github</div>
-                          <div class="card-body">
-                            <h5 class="card-title">
-                              📌click</h5>
-                            <p class="card-text">
-                              🗒️ 블로그 주소 https://kikisushi24.tistory.com/
-                              <br>
-                              🗒️ 깃허브 주소 https://github.com/kikisushi
-                            </p>
-                          </div>
-                        </div>
-                      
-                      </div>
-                    </div>
-                    
-                  </div>
-                  <div class="col-6 col-md-4">
-                    <div class="card" id="mainCard">
-                      <img
-                        src="img\프로필사진\황인건.jpg"
-                        class="card-img-top"
-                        alt="이미지 오류"
-                        id="mainCardImg"
-                      />
-                      <div class="card-body">
-                      <h5 class="card-title">Node.js 5기 황인건</h5>
-                      <hr />
-                      <p class="card-text"><p>📢 한마디</p>
-                        혼자 나아가다보면 지쳐 포기할 수 있습니다. 다같이 수료하는 날까지 화이팅!
-                      </p>
-                    
-                    </div>
-                  </div>
-                  </div>
-                  <div class="col-6 col-md-4">
-                    <div class="card border-light mb-3" style="width:auto;">
-                      <div class="card-header"> &#128171; 취미 or 좋아하는 음식</div>
-                      <div class="card-body">
-                        <h5 class="card-title">스시와 사케</h5>
-                        <p class="card-text">스시의 역사와 기술에 깊이 관심있으며 집에서 직접 만들어 먹기도 합니다.
-                          <br>술과 음식의 조합인 마리아주를 중요시 여겨 사케는 당연히 빼놓을 수 없습니다.
-                        
-                        </p>
-                      </div>
-                    </div>
-                    <div class="card border-light mb-3" style="width: auto;">
-                      <div class="card-header">&#128126; 협업 스타일과 장점</div>
-                      <div class="card-body">
-                        <h5 class="card-title">아이디어와 적극성</h5>
-                        <p class="card-text">팀플레이 상황에서 좋은 아이디어가 떠오르면 적극적으로 제시하는 편입니다.
-                      </div>
-                    </div>
-                    <div class="card border-light" style="width:auto;">
-                      <div class="card-header">🚩 목표</div>
-                      <div class="card-body">
-                        <h5 class="card-title">빠른 취업</h5>
-                        <p class="card-text">믿고 기다려주는 사람을 위해 취업준비 기간을 최대한 단축하고자합니다.</p>
-                      </div>
-                    </div>
+
+                <div class="card border-light" style="width:auto;">
+                  <div class="card-header">blog / github</div>
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      📌click</h5>
+                    <p class="card-text">
+                      🗒️ 블로그 주소 https://kikisushi24.tistory.com/
+                      <br>
+                      🗒️ 깃허브 주소 https://github.com/kikisushi
+                    </p>
                   </div>
                 </div>
+
               </div>
-              <script
-                src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-                integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-                crossorigin="anonymous"
-              ></script>
-        </div>
-        <div id="third" style="display: none;">
-            <!--개인 소개 div추가해야 할 부분-->
-            <!--추가 시 아래div 삭제-->
-            <div class="container text-center">
-                <!-- 첫 번째 열 -->
-                <div class="row">
-                  <div class="col-12">차후 추가할수도 있는 디자인적 요소등을 고려하여 만들어 두었음</div>
-            
-                </div>
-            
-                <!-- 두 번째 열-->
-                <div class="row">
-                  <div class="col-6 col-md-4">
-            
-                    <div class="card mx-2" style="width: auto;">
-                      <div class="row row-cols-1 row-cols-md-1 g-2">
-                        <div class="col mb-3">
-                          <div class="card">
-                            <img src="img\mbti사진\intp.png" class="card-img-top" alt="...">
-                            <div class="card-body">
-                              <h5 class="card-title">제 MBTI유형은 "INTP" 입니다</h5>
-                              <p class="card-text"></p>
-                            </div>
-                          </div>
-                        </div>
-            
-                        <div class="card border-light" style="width:auto;">
-                          <div class="card-header">blog / github</div>
-                          <div class="card-body">
-                            <h5 class="card-title">
-                              📌click</h5>
-                            <p class="card-text">
-                              🗒️ 블로그 주소 <a href="https://dearco-nell.tistory.com/">https://dearco-nell.tistory.com/</a>
-                              <br>
-                              🗒️ 깃허브 주소 <a href="https://github.com/HarinKang240322">https://github.com/HarinKang240322</a>
-                            </p>
-                          </div>
-                        </div>
-            
-                      </div>
-                    </div>
-            
-                  </div>
-                  <div class="col-6 col-md-4">
-                    <div class="card" id="mainCard">
-                      <img src="img\프로필사진\강하린.jpg" class="card-img-top" alt="이미지 오류" id="mainCardImg" />
-                      <div class="card-body">
-                        <h5 class="card-title">Node.js 5기 강하린</h5>
-                        <hr />
-                        <p class="card-text">
-                        <p>📢 한마디</p>
-                        함께 처음을 맞이하는 팀원분들과 적극적인 소통을 통해 성장해가는 개발자가 되겠습니다!
-                        </p>
-            
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-6 col-md-4">
-                    <div class="card border-light mb-3" style="width:auto;">
-                      <div class="card-header"> &#128171; 취미 or 좋아하는 음식</div>
-                      <div class="card-body">
-                        <h5 class="card-title">음악과 산책, 그리고 소울푸드</h5>
-                        <p class="card-text">좋아하는 음악과 자연소리를 들으며
-                          <br>천천히 오래 걷는 것을 좋아합니다.
-                          <br>소울푸드는 구운 치킨과 떡볶이!
-                        </p>
-                      </div>
-                    </div>
-                    <div class="card border-light mb-3" style="width: auto;">
-                      <div class="card-header">&#128126; 협업 스타일과 장점</div>
-                      <div class="card-body">
-                        <h5 class="card-title">조용히 시끄러운 지원자</h5>
-                        <p class="card-text">의욕이 앞서 홀로 고분군투하기도 하지만,<br>팀 프로젝트에 도움이 되기 위해 최선을 다합니다.
-                      </div>
-                    </div>
-                    <div class="card border-light" style="width:auto;">
-                      <div class="card-header">🚩 목표</div>
-                      <div class="card-body">
-                        <h5 class="card-title">곁에 두고 싶은 개발자</h5>
-                        <p class="card-text">웹개발의 기반을 탄탄하게 다져서 팀원들을 든든하게 지원해줄 수 있는 개발자가 되고 싶습니다.</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+            </div>
+
+          </div>
+          <div class="col-6 col-md-4">
+            <div class="card" id="mainCard">
+              <img src="img\프로필사진\황인건.jpg" class="card-img-top" alt="이미지 오류" id="mainCardImg" />
+              <div class="card-body">
+                <h5 class="card-title">Node.js 5기 황인건</h5>
+                <hr />
+                <p class="card-text">
+                <p>📢 한마디</p>
+                혼자 나아가다보면 지쳐 포기할 수 있습니다. 다같이 수료하는 날까지 화이팅!
+                </p>
+
               </div>
-              <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-                integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-                crossorigin="anonymous"></script>
-        </div>
-        <div id="fourth" style="display: none;">
-            <!--개인 소개 div추가해야 할 부분-->
-            <!--추가 시 아래div 삭제-->
-            <div class="card" style="width: 18rem;">
-                <img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fimage.nmv.naver.net%2Fblogucc28%2F2018%2F05%2F26%2F1828%2F0c20501745dae7b8929d2c2769fe608fb38d_ugcvideo_270P_01_16x9_logo.jpg&type=a340"
-                    class="card-img-top" alt="얼굴">
-                <div class="card-body">
-                    <p class="card-text">전우찬 소개div</p>
-                </div>
             </div>
-        </div>
-        <div id="fifth" style="display: none;">
-            <!--개인 소개 div추가해야 할 부분-->
-            <!--추가 시 아래div 삭제-->
-            <div class="card" style="width: 18rem;">
-                <img src="https://search.pstatic.net/sunny/?src=https%3A%2F%2Fi3.ruliweb.com%2Fimg%2F19%2F04%2F14%2F16a1b17ad1d4812b0.jpg&type=a340"
-                    class="card-img-top" alt="얼굴">
-                <div class="card-body">
-                    <p class="card-text">문현후 소개div</p>
-                </div>
+          </div>
+          <div class="col-6 col-md-4">
+            <div class="card border-light mb-3" style="width:auto;">
+              <div class="card-header"> &#128171; 취미 or 좋아하는 음식</div>
+              <div class="card-body">
+                <h5 class="card-title">스시와 사케</h5>
+                <p class="card-text">스시의 역사와 기술에 깊이 관심있으며 집에서 직접 만들어 먹기도 합니다.
+                  <br>술과 음식의 조합인 마리아주를 중요시 여겨 사케는 당연히 빼놓을 수 없습니다.
+
+                </p>
+              </div>
             </div>
+            <div class="card border-light mb-3" style="width: auto;">
+              <div class="card-header">&#128126; 협업 스타일과 장점</div>
+              <div class="card-body">
+                <h5 class="card-title">아이디어와 적극성</h5>
+                <p class="card-text">팀플레이 상황에서 좋은 아이디어가 떠오르면 적극적으로 제시하는 편입니다.
+              </div>
+            </div>
+            <div class="card border-light" style="width:auto;">
+              <div class="card-header">🚩 목표</div>
+              <div class="card-body">
+                <h5 class="card-title">빠른 취업</h5>
+                <p class="card-text">믿고 기다려주는 사람을 위해 취업준비 기간을 최대한 단축하고자합니다.</p>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
     </div>
+    <div id="third" style="display: none;">
+      <!--개인 소개 div추가해야 할 부분-->
+      <!--추가 시 아래div 삭제-->
+      <div class="container text-center">
+        <!-- 첫 번째 열 -->
+        <div class="row">
+          <div class="col-12">차후 추가할수도 있는 디자인적 요소등을 고려하여 만들어 두었음</div>
+
+        </div>
+
+        <!-- 두 번째 열-->
+        <div class="row">
+          <div class="col-6 col-md-4">
+
+            <div class="card mx-2" style="width: auto;">
+              <div class="row row-cols-1 row-cols-md-1 g-2">
+                <div class="col mb-3">
+                  <div class="card">
+                    <img src="img\mbti사진\intp.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">제 MBTI유형은 "INTP" 입니다</h5>
+                      <p class="card-text"></p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card border-light" style="width:auto;">
+                  <div class="card-header">blog / github</div>
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      📌click</h5>
+                    <p class="card-text">
+                      🗒️ 블로그 주소 <a href="https://dearco-nell.tistory.com/">https://dearco-nell.tistory.com/</a>
+                      <br>
+                      🗒️ 깃허브 주소 <a href="https://github.com/HarinKang240322">https://github.com/HarinKang240322</a>
+                    </p>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+          <div class="col-6 col-md-4">
+            <div class="card" id="mainCard">
+              <img src="img\프로필사진\강하린.jpg" class="card-img-top" alt="이미지 오류" id="mainCardImg" />
+              <div class="card-body">
+                <h5 class="card-title">Node.js 5기 강하린</h5>
+                <hr />
+                <p class="card-text">
+                <p>📢 한마디</p>
+                함께 처음을 맞이하는 팀원분들과 적극적인 소통을 통해 성장해가는 개발자가 되겠습니다!
+                </p>
+
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4">
+            <div class="card border-light mb-3" style="width:auto;">
+              <div class="card-header"> &#128171; 취미 or 좋아하는 음식</div>
+              <div class="card-body">
+                <h5 class="card-title">음악과 산책, 그리고 소울푸드</h5>
+                <p class="card-text">좋아하는 음악과 자연소리를 들으며
+                  <br>천천히 오래 걷는 것을 좋아합니다.
+                  <br>소울푸드는 구운 치킨과 떡볶이!
+                </p>
+              </div>
+            </div>
+            <div class="card border-light mb-3" style="width: auto;">
+              <div class="card-header">&#128126; 협업 스타일과 장점</div>
+              <div class="card-body">
+                <h5 class="card-title">조용히 시끄러운 지원자</h5>
+                <p class="card-text">의욕이 앞서 홀로 고분군투하기도 하지만,<br>팀 프로젝트에 도움이 되기 위해 최선을 다합니다.
+              </div>
+            </div>
+            <div class="card border-light" style="width:auto;">
+              <div class="card-header">🚩 목표</div>
+              <div class="card-body">
+                <h5 class="card-title">곁에 두고 싶은 개발자</h5>
+                <p class="card-text">웹개발의 기반을 탄탄하게 다져서 팀원들을 든든하게 지원해줄 수 있는 개발자가 되고 싶습니다.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    </div>
+    <div id="fourth" style="display: none;">
+      <!--개인 소개 div추가해야 할 부분-->
+      <!--추가 시 아래div 삭제-->
+      <div class="card" style="width: 18rem;">
+        <img
+          src="https://search.pstatic.net/common/?src=http%3A%2F%2Fimage.nmv.naver.net%2Fblogucc28%2F2018%2F05%2F26%2F1828%2F0c20501745dae7b8929d2c2769fe608fb38d_ugcvideo_270P_01_16x9_logo.jpg&type=a340"
+          class="card-img-top" alt="얼굴">
+        <div class="card-body">
+          <p class="card-text">전우찬 소개div</p>
+        </div>
+      </div>
+    </div>
+    <div id="fifth" style="display: none;">
+      <!--개인 소개 div추가해야 할 부분-->
+      <!--추가 시 아래div 삭제-->
+      <div class="card" style="width: 18rem;">
+        <img
+          src="https://search.pstatic.net/sunny/?src=https%3A%2F%2Fi3.ruliweb.com%2Fimg%2F19%2F04%2F14%2F16a1b17ad1d4812b0.jpg&type=a340"
+          class="card-img-top" alt="얼굴">
+        <div class="card-body">
+          <p class="card-text">문현후 소개div</p>
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
 
 </html>
