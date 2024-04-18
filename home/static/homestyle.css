@@ -24,14 +24,8 @@ body {
     padding-bottom: 30px;
 }
 
-.title {
-    background-color: transparent;
-    width: 800px;
-    text-align: center;
-    margin: 10px auto 10px auto;
-}
 
-.title > a {
+.title {
     text-decoration-line: none;
     font-family: "Moirai One", system-ui;
     font-weight: 800;
