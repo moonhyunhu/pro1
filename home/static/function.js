@@ -2,6 +2,10 @@ $('#refresh').click(async function () {
     location.reload(true);
 });
 
+$('#togglebottom').click(async function () {
+    $('#btmdiv').toggle(); 
+});
+
 $("#one1").click(async function () {
     if ($('#mainimg').css('display') === "block" && $('#first').css('display') === "block") {
         $('#mainimg').css({ display: "block" });
