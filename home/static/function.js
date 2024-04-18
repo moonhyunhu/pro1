@@ -3,7 +3,13 @@ $('#refresh').click(async function () {
 });
 
 $('#togglebottom').click(async function () {
-    $('#btmdiv').toggle(); 
+    $('#btmdiv').toggle();
+    $('#mainimg').css({ display: "block" });
+    $('#first').css({ display: "none" });
+    $('#second').css({ display: "none" });
+    $('#third').css({ display: "none" });
+    $('#fourth').css({ display: "none" });
+    $('#fifth').css({ display: "none" });
 });
 
 $("#one1").click(async function () {
